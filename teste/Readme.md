@@ -1,0 +1,1 @@
+Arquivo de Texto para documentação do codigo.
