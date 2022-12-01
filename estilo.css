@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+/*html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}*/
+
+/*header div {
+    /*background-color: blue;*/
+    /*color: rgba(215, 110, 11, 0.786);*/
+    /*text-align: center;*/
+    /*background-image: url('./img05.jpeg');*/
+    /*background-size: 100%;*/
+    /*background-repeat: no-repeat; */
+    /*background-position: 50% ;*/
+    /*object-fit: cover; 
+
+}*/
+/*
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 4vw;
+}
+*/
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    object-fit: contain;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline; 
+}
+
+
+
+#logo{
+    width: 70px;
+}
+
+#lg{
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: rgb(255, 141, 80);
+    color: rgb(0, 0, 0);
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('./img01.png');
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url('./img02.jpeg');
+    background-position: right center;
+    
+}
+
+section#img03{
+    background-image: url('./img0.jpeg');
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    object-fit: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
